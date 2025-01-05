@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0A233C82D2A323E00BE439D /* WindowReader in Frameworks */ = {isa = PBXBuildFile; productRef = A0A233C72D2A323E00BE439D /* WindowReader */; };
-		A0A233DA2D2A342300BE439D /* WindowReader in Frameworks */ = {isa = PBXBuildFile; productRef = A0A233D92D2A342300BE439D /* WindowReader */; };
+		A0C5FEC02D2A4ADF00A980B2 /* WindowReader in Frameworks */ = {isa = PBXBuildFile; productRef = A0C5FEBF2D2A4ADF00A980B2 /* WindowReader */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A233C82D2A323E00BE439D /* WindowReader in Frameworks */,
+				A0C5FEC02D2A4ADF00A980B2 /* WindowReader in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +51,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A233DA2D2A342300BE439D /* WindowReader in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,14 +98,13 @@
 			);
 			dependencies = (
 				A067EE2F2D2A39F10008C93A /* PBXTargetDependency */,
-				A0A233D72D2A33A700BE439D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				A0A232F12D2A22D300BE439D /* WindowReaderUITestsApp */,
 			);
 			name = WindowReaderUITestsApp;
 			packageProductDependencies = (
-				A0A233C72D2A323E00BE439D /* WindowReader */,
+				A0C5FEBF2D2A4ADF00A980B2 /* WindowReader */,
 			);
 			productName = UITestHost;
 			productReference = A0A232EF2D2A22D300BE439D /* WindowReaderUITestsApp.app */;
@@ -133,7 +130,6 @@
 			);
 			name = WindowReaderUITests;
 			packageProductDependencies = (
-				A0A233D92D2A342300BE439D /* WindowReader */,
 			);
 			productName = UITestHostUITests;
 			productReference = A0A2330A2D2A22D400BE439D /* WindowReaderUITests.xctest */;
@@ -168,8 +164,8 @@
 			mainGroup = A0A232E62D2A22D300BE439D;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				A0A233C62D2A323E00BE439D /* XCLocalSwiftPackageReference "../WindowReader" */,
 				A067EE2D2D2A39CF0008C93A /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+				A0C5FE992D2A4A0300A980B2 /* XCLocalSwiftPackageReference "../../WindowReader" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A0A232F02D2A22D300BE439D /* Products */;
@@ -229,10 +225,6 @@
 			isa = PBXTargetDependency;
 			target = A0A232EE2D2A22D300BE439D /* WindowReaderUITestsApp */;
 			targetProxy = A0A2330B2D2A22D400BE439D /* PBXContainerItemProxy */;
-		};
-		A0A233D72D2A33A700BE439D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = A0A233D62D2A33A700BE439D /* WindowReader */;
 		};
 /* End PBXTargetDependency section */
 
@@ -476,9 +468,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		A0A233C62D2A323E00BE439D /* XCLocalSwiftPackageReference "../WindowReader" */ = {
+		A0C5FE992D2A4A0300A980B2 /* XCLocalSwiftPackageReference "../../WindowReader" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../WindowReader;
+			relativePath = ../../WindowReader;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -504,18 +496,8 @@
 			package = A067EE2D2D2A39CF0008C93A /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
 			productName = "plugin:SwiftLintBuildToolPlugin";
 		};
-		A0A233C72D2A323E00BE439D /* WindowReader */ = {
+		A0C5FEBF2D2A4ADF00A980B2 /* WindowReader */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = WindowReader;
-		};
-		A0A233D62D2A33A700BE439D /* WindowReader */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A0A233C62D2A323E00BE439D /* XCLocalSwiftPackageReference "../WindowReader" */;
-			productName = WindowReader;
-		};
-		A0A233D92D2A342300BE439D /* WindowReader */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A0A233C62D2A323E00BE439D /* XCLocalSwiftPackageReference "../WindowReader" */;
 			productName = WindowReader;
 		};
 /* End XCSwiftPackageProductDependency section */
